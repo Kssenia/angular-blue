@@ -1,0 +1,17 @@
+
+h3 { padding: 75px 0 38px 0; position: relative; }
+.fa {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  font-size: 30px;
+  color: #fff;
+}
+p{
+  font-size: 28px;
+  line-height: 50px;
+  padding-bottom: 40px;
+}
+@media (max-width: 410px) {
+  p{ font-size: 23px;}
+}

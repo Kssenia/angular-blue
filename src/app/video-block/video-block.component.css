@@ -1,0 +1,21 @@
+.row {
+  padding-bottom: 71px;
+}
+
+p {
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 2px solid #353f46;
+  color: #353f46;
+}
+
+.embed-responsive {
+  margin-top: 70px;
+}

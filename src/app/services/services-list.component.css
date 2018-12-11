@@ -1,0 +1,46 @@
+ul {
+  display: table;
+  padding: 40px 0 66px;
+}
+
+@media (max-width: 530px) {
+  ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+ul li {
+  display: table-cell;
+  padding-right: 40px;
+  width: 268px;
+  color: #fff;
+}
+
+@media (max-width: 530px) {
+  ul li {
+    display: block;
+    padding-top: 30px;
+  }
+}
+
+ul li span {
+  display: block;
+}
+
+@media (max-width: 530px) {
+  ul li span {
+    text-align: justify;
+  }
+}
+
+ul li span:first-child {
+  padding: 20px 0 17px;
+}
+
+@media (max-width: 530px) {
+  ul li .title {
+    text-align: center;
+  }
+
+}

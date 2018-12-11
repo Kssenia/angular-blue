@@ -1,0 +1,30 @@
+h3 {
+  padding-top: 100px;
+}
+
+.fa {
+  margin-right: 20px;
+  font-size: 27px;
+  background: none;
+  padding: 18px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+@media (max-width: 380px) {
+  .fa {
+    font-size: 20px;
+    margin-right: 9px;
+  }
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 30px;
+}
+
+.paddBottom {
+  padding-bottom: 150px;
+}
+

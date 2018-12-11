@@ -1,0 +1,29 @@
+.container{ }
+.header {
+  background: url("/assets/image/bgHeader.png") no-repeat center center;
+  background-size: cover;
+}
+.header-top{
+  padding: 12px 0 12px;
+  background: rgba(8, 8, 8, 0.4);
+}
+.services{
+  background: #4bcaff;
+}
+.videoBlock{
+  background: #515f67;
+}
+.twiterBlock{
+  background: #4bcaff;
+}
+.photographerBlock{
+  background: url("/assets/image/bgPhoto.png") no-repeat center center;
+  background-size: cover;
+}
+.contactBlock{
+  background: url("/assets/image/bgContact.png") no-repeat center center;
+  background-size: cover;
+}
+.footerBlock{
+  background: #353f47;
+}

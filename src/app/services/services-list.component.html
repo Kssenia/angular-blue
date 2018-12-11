@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-md-12 col-sm-12">
+    <ul>
+      <li *ngFor="let service of services">
+        <img src="{{service?.imagePath}}" alt="">
+        <span class="title" [style.fontSize]="'24px'" [style.lineHeight]="'40px'" [style.padding]="'20px 0 17px'">
+          {{service?.title | uppercase}}
+        </span>
+        <span [style.fontSize]="'12px'" [style.lineHeight]="'20px'">
+          {{service?.text}}
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+

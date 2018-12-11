@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-md-12">
+    <h3 class="text-uppercase">Contact</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <form   [formGroup] = "formContact" novalidate (ngSubmit)="submit()">
+      <div class="form-group">
+        <span class="text-uppercase"> Full Name</span>
+        <p><label class="form-name"><input type="text" class="form-control" name="name" formControlName="userName" /></label></p>
+      </div>
+        <p class="formText">Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread lollipop tart. Jujubes bear claw donut chupa chups.</p>
+      <div class="form-group">
+        <span class="text-uppercase">Email</span>
+        <p><label class="form-email"><input type="text" class="form-control" name="email" formControlName="userEmail" /></label></p>
+      </div>
+      <div class="adress">
+        <p>Linda Newman</p>
+        <p>W325 State Road 123</p>
+        <p>Mondovi, WI(Wisconsin) 98746-54321</p>
+        <p>(715) 946 - 1234</p>
+       </div>
+      <div class="form-group">
+        <span class="text-uppercase">Message</span>
+        <label class="messages">
+        <textarea name="message" formControlName="userMessage"></textarea>
+        </label>
+      </div>
+      <div class="form-group">
+        <button class="btn btn-default text-uppercase" [disabled]="formContact.invalid">Message</button>
+       </div>
+    </form>
+  </div>
+</div>
